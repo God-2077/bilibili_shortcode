@@ -38,7 +38,7 @@ function vbilibili_shortcode( $atts, $content = null ) {
    }
 
    // 构建 iframe 的 HTML 代码
-   $iframe = '<div style="position: relative; padding: 30% 45%;"><iframe src="' . $iframe_url . '" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div><br>';
+   $iframe = '<div style="position: relative; padding: 30% 45%;"><iframe src="' . $iframe_url . '" frameborder="no" scrolling="no" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" allowfullscreen="allowfullscreen" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div><br>';
 
    // 返回 iframe 的 HTML 代码
    return $iframe;
