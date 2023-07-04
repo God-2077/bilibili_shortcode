@@ -3,7 +3,7 @@
 Plugin Name: WordPress通过短代码插入bilibili视频
 Plugin URI: https://github.com/God-2077/bilibili_shortcode/
 Description: 一个WordPress插件，用于使用短代码插入哔哩哔哩视频 & A WordPress plugin for inserting Bilibili videos using shortcodes.
-Version: 1.0
+Version: 1.1
 Author: space520
 Author URI: https://space520eu.org/
 License: GPL3
