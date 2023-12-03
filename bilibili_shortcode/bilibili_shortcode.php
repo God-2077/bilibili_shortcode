@@ -1,7 +1,3 @@
-bug
-Warning: Invalid argument supplied for foreach() in /www/wwwroot/ue.tiktokssl.tk/wp-includes/shortcodes.php on line 586
-
-
 <?php
 /*
 Plugin Name: WordPress通过短代码插入bilibili视频
